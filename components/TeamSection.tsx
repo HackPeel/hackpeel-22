@@ -136,8 +136,8 @@ function SectionDisp({ arr }: { arr: staffEntry[] }) {
 export default function TeamSection({ team }) {
 	const flexcls: string = "flex flex-wrap gap-8 justify-around w-full";
 	return (<>
-		<section id="team" className="text-center m-0" style={{backgroundColor: "#1B1464"}}>
-			<div className="p-10 lg:p-16 lg:py-10" style={{backgroundColor: "#1B1464"}}>
+		<section id="team" className="text-center m-0" style={{backgroundColor: "#232f69"}}>
+			<div className="p-10 lg:p-16 lg:py-10" style={{backgroundColor: "#232f69"}}>
 				<h1 className="text-4xl lg:text-5xl font-bold mb-6 w-auto text-white"> Meet the Team </h1>
 				<div className={flexcls}>
 					{team.map(
@@ -157,7 +157,7 @@ export default function TeamSection({ team }) {
 				<br />
 				
 			</div>
-			<div className="w-1/2 p-2  text-xl font-bold m-auto" style={{backgroundColor: "#232f69", clipPath:"polygon(21% 0, 79% 0, 100% 100%, 0 100%)"}}>‎</div>
+			<div className="w-1/2 p-2  text-xl font-bold m-auto" style={{backgroundColor: "#101E47", clipPath:"polygon(21% 0, 79% 0, 100% 100%, 0 100%)", marginBottom: '-1px'}}>‎</div>
 		</section>
 	</>)
 }

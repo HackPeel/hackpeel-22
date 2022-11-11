@@ -88,14 +88,15 @@ function Sponsor({entry}: {entry: sponsorEntry}) {
 export default function SponsorsSection() {
 	const flexcls = "flex flex-wrap mx-16 pt-10 justify-around w-auto";
 	return (<>
-		<section id="sponsors" className="text-center w-auto p-10" style={{backgroundColor: "#232f69"}}>
+		<section id="sponsors" className="text-center w-auto p-10" style={{backgroundColor: "#1B1464", paddingBottom: 0}}>
 			<h1 className="text-4xl text-white font-bold m-5 w-auto">Sponsors</h1>
 			<div className={flexcls}>
 				{sponsors.map(spnsr => (<Sponsor key={spnsr.name} entry={spnsr} />))}
 			</div>
 			<a className="m-auto l-0 r-0" href="/hackpeel_sponsor_package.pdf" target="_blank">
-				<button className="transition-all p-4 rounded-xl bg-blue-700 text-white text-lg hover:text-blue-700 active:bg-blue-500 active:text-white hover:bg-white">Become a Sponsor</button>
+				<button className="transition-all p-4 rounded-xl bg-blue-700 text-white text-lg hover:text-blue-700 active:bg-blue-500 active:text-white hover:bg-white" style={{marginBottom: '80px'}}>Become a Sponsor</button>
 			</a>
+			<div className="w-1/2 p-2  text-xl font-bold m-auto" style={{backgroundColor: "#232f69", clipPath:"polygon(21% 0, 79% 0, 100% 100%, 0 100%)", marginBottom: '-1px'}}>‎</div>
 		</section>
 	</>)
 }
