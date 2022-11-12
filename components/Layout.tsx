@@ -4,6 +4,7 @@ import Navbar from "./Navbar"
 import Footer from "./Footer"
 
 import { motion } from "framer-motion"
+import {TRUE_VALUE} from "groq-js/src/values/utils";
 
 const transition = { ease: [0.6, 0.01, -0.05, 0.9] };
 
@@ -24,7 +25,7 @@ export default function Layout({ name, children, noAnim }: { name: string, child
             <Head>
 
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
+                <link rel="preconnect" href="https://fonts.gstatic.com"/>
                 <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@700&display=swap"
                               rel="stylesheet" />
 
