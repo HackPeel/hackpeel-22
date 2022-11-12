@@ -14,10 +14,8 @@ export function getStaticProps() {
 export default function Home({ documentsRaw }) {
   // TODO: Refactor this once we add sponsors to CMS
   const team = documentsRaw;
-
   return (
     <Layout name="Home">
-
       <Hero />
       <AboutSection />
       <FAQ />
