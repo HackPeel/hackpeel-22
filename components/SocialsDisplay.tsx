@@ -20,7 +20,7 @@ function SocialObject({img, col, href, alt}: {img: string, col: string, href: st
 		backgroundColor: col
 	}
 	return (
-		<a className={acls} href={href} style={astyle} target="_blank">
+		<a className={acls} href={href} style={astyle} target="_blank" rel="noreferrer">
 			<div className={imgcls}>
 			{
 					img ? <Image src={img} layout="fill" alt={alt}/> : null
