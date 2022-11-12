@@ -59,13 +59,21 @@ export default function Hero() {
                             {topLine.map(char => <motion.span className="inline-block relative" variants={characterVariants} key={char}>{char}</motion.span>)}
                         </motion.div>
 
-                        <motion.div variants={bottomLineVariants} initial="initial" animate="animate" className="font-bold flex gap-2 text-5xl sm:text-7xl lg:text-9xl">
+                        <motion.div variants={bottomLineVariants} initial="initial" animate="animate" className="font-bold flex gap-2 text-5xl sm:text-7xl lg:text-9xl" style={{marginTop:'25px'}}>
                             <div className='flex'>
-                                {bottomLine.slice(0, 6).map(char => <motion.span className="inline-block relative bg-clip-text text-[#06f5c2]" variants={characterVariants} key={char}>{char}</motion.span>)}
+                                {bottomLine.slice(0, 4).map(char => <motion.span className="hero-title inline-block relative bg-clip-text text-[#06f5c2]" variants={characterVariants} key={char}>{char}</motion.span>)}
                             </div>
 
                             <div className='flex'>
-                                {bottomLine.slice(6).map(char => <motion.span className="inline-block relative bg-clip-text text-white" variants={characterVariants} key={char}>{char}</motion.span>)}
+                                {bottomLine.slice(4, 5).map(char => <motion.span className="hero-title left-colon inline-block relative bg-clip-text text-[#06f5c2]" variants={characterVariants} key={char}>{char}</motion.span>)}
+                            </div>
+
+                            <div className='flex'>
+                                {bottomLine.slice(4, 5).map(char => <motion.span className="hero-title right-colon inline-block relative bg-clip-text text-[#06f5c2]" variants={characterVariants} key={char}>{char}</motion.span>)}
+                            </div>
+
+                            <div className='flex'>
+                                {bottomLine.slice(6).map(char => <motion.span className="hero-title inline-block relative bg-clip-text text-white" variants={characterVariants} key={char}>{char}</motion.span>)}
                             </div>
                         </motion.div>
                     </div>

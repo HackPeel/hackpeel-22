@@ -5,3 +5,17 @@
 html {
   scroll-behavior: smooth;
 }
+
+.hero-title {
+  font-family: 'Overpass Mono', monospace;
+}
+
+.left-colon {
+  margin-right: -19px;
+  margin-left: -19px
+}
+
+.right-colon {
+  margin-left: -19px;
+  margin-right: -19px
+}

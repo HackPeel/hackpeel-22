@@ -12,16 +12,22 @@ const contentVariants = {
     animate: { y: 0, opacity: 1 },
     exit: { y: -200, opacity: 0 },
     transition: { duration: 0.4, ...transition }
-}
+};
 
 export default function Layout({ name, children, noAnim }: { name: string, children: any, noAnim?: boolean }) {
     const title = `Hackathon | hack::peel`;
     const description = "hack::peel is a hackathon curated specifically for students in the Peel Region, happening on December 16, 2022.";
-    const imageSrc = "https://i.imgur.com/zOxeFaR.png"
+    const imageSrc = "https://i.imgur.com/zOxeFaR.png";
 
     return (
         <div className="flex flex-col min-h-screen" key={name}>
             <Head>
+
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
+                <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@700&display=swap"
+                              rel="stylesheet" />
+
                 <title>{title}</title>
                 <meta name="description" content={description} />
 
