@@ -3,6 +3,8 @@ import { useInterval } from "../util/chooks.js";
 import SpinDial from "./SpinDial"
 // import Logo from "../public/images/logo.png";
 
+
+
 const evtStart: number = Date.parse("2022-12-16T18:00:00.0000");
 const evtEnd: number = Date.parse("2022-12-17T18:00:00.0000");
 export default function DateCounter() {
@@ -16,8 +18,7 @@ export default function DateCounter() {
     return (
         <div className="p-4 text-center">
             <span className="text-xl text-white font-bold">Starting in...</span>
-            <div className="flex justify-center p-2 mx-10">
-
+            <div className="flex justify-center p-2 mx-10" style={{display:'flex', flexWrap:'wrap'}}>
                 <SpinDial num={days} digits={2} descriptor="Days" />
                 <SpinDial num={hours} digits={2} descriptor="Hours" />
                 <SpinDial num={minutes} digits={2} descriptor="Minutes" />
