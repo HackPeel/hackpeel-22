@@ -16,12 +16,8 @@ const faq: FrequentlyAskedQuestion[] = [
         content: "Hackathons are 'development marathons', where people collaborate intensively over a short period of time to create a working project."
     },
     {
-        title: "Are there any requirements to attend?",
-        content: "Nope! Anyone can join this hackathon."
-    },
-    {
-        title: "When is the hackathon?",
-        content: (<>The hackathon is planned to run from Dec 16 - Dec 17. Check the <a href="#timetable" style={linkstyle}>timetable</a> for more information.</>)
+        title: "Where/when is the hackathon?",
+        content: (<>The hackathon is planned to run from Dec 16 - Dec 17 at <a target='_blank' href="https://www.google.com/maps/place/The+Woodlands+School+-+Secondary" style={linkstyle}>The Woodlands Secondary School</a>. Check the <a href="#timetable" style={linkstyle}>timetable</a> for more information.</>)
     },
     {
         title: "Is the hackathon running overnight?",
@@ -33,7 +29,7 @@ const faq: FrequentlyAskedQuestion[] = [
     },
     {
         title: "Are there any prizes for winners?",
-        content: "With the help of our sponsors, we will be providing monetary as well as software and API prizes to the chosen winners."
+        content: "With the help of our sponsors, we will be providing >$20,000 in prizes in cash,software and API prizes to the chosen winners. All attendees will also get swag bags and sponsor merch!"
     },
     {
         title: "Who owns my project?",
@@ -44,11 +40,18 @@ const faq: FrequentlyAskedQuestion[] = [
         content: "While you can explore ideas, you are not allowed to write code or begin working on the project before the hacking period of the hackathon starts."
     },
     {
+        title: "Are there any required submission formats?",
+        content: (<>All projects will need to be submitted via the <a href="\" style={linkstyle}>Devpost</a>. Project source code must be present on a shareable VCS such as GitHub.</>)
+    },
+    {
         title: "Is there a theme for the hackathon?",
         content: (<>To allow for as much creative liberty, there is no required project theme. However, specific theme restrictions apply for sponsor prize eligibility. Check the <a href="" style={linkstyle}>Devpost</a> for more info.</>)
-    }
-
-]
+    },
+    {
+        title: "How large can my team be?",
+        content: (<>Teams have a maximum size of 4 members.</>)
+    },
+];
 
 export default function FAQ({ faq: faqRaw }) {
     // Reformat to work with Accordion
