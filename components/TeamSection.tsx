@@ -148,7 +148,7 @@ export default function TeamSection({ team }) {
 								img={member.image}
 								title={member.position}
 								hl={member.highlighted}
-								scls={member.socials}
+								scls={member.links}
 								key={member.firstName}
 							/>
 						)
