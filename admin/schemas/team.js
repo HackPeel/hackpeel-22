@@ -55,6 +55,9 @@ export default {
                                     "Instagram",
                                     "LinkedIn",
                                     "Website",
+                                    "Discord",
+                                    "Facebook",
+                                    "Twitter"
                                 ],
                                 layout: 'radio' // <-- defaults to 'dropdown'
                             }

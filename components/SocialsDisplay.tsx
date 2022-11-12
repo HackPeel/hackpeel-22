@@ -1,10 +1,12 @@
 import Image from "next/image";
 
 export interface socialsEntry {
-	altName: string,
-	img: string,
-	col: string,
-	href: string
+	url: string,
+	website: string
+}
+
+const websiteLookup = {
+
 }
 
 function SocialObject({img, col, href, alt}: {img: string, col: string, href: string, alt: string}) {
@@ -18,7 +20,7 @@ function SocialObject({img, col, href, alt}: {img: string, col: string, href: st
 		backgroundColor: col
 	}
 	return (
-		<a className={acls} href={href} style={astyle}>
+		<a className={acls} href={href} style={astyle} target="_blank">
 			<div className={imgcls}>
 			{
 					img ? <Image src={img} layout="fill" alt={alt}/> : null
@@ -32,7 +34,7 @@ export default function SocialsDisplay({socials}: {socials: socialsEntry[]}) {
 		<div className="flex h-0 mx-2 my-0 social transition-all overflow-hidden">
 			{
 				socials.map(obj => (<>
-					<SocialObject img={obj.img} col={obj.col} href={obj.href} alt={obj.altName} />
+					<SocialObject img={websiteLookup[obj.website] ? websiteLookup[obj.website].img: null} col={websiteLookup[obj.website] ? websiteLookup[obj.website].col : "gray"} href={obj.url} alt={obj.website} />
 				</>))
 			}
 		</div>
