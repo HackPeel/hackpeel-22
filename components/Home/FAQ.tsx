@@ -17,7 +17,7 @@ const faq: FrequentlyAskedQuestion[] = [
     },
     {
         title: "Where/when is the hackathon?",
-        content: (<>The hackathon is planned to run from Dec 16 - Dec 17 at <a target='_blank' href="https://www.google.com/maps/place/The+Woodlands+School+-+Secondary" style={linkstyle}>The Woodlands Secondary School</a>. Check the <a href="#timetable" style={linkstyle}>timetable</a> for more information.</>)
+        content: (<>The hackathon is planned to run from Dec 16 - Dec 17 at <a rel="noreferrer" target='_blank' href="https://www.google.com/maps/place/The+Woodlands+School+-+Secondary" style={linkstyle}>The Woodlands Secondary School</a>. Check the <a href="#timetable" style={linkstyle}>timetable</a> for more information.</>)
     },
     {
         title: "Is the hackathon running overnight?",
@@ -33,7 +33,7 @@ const faq: FrequentlyAskedQuestion[] = [
     },
     {
         title: "Who owns my project?",
-        content: (<>You and your team own anything you create. Why not make it open source, on <a href="https://github.com/" style={linkstyle}>Github</a>?</>)
+        content: (<>You and your team own anything you create. Why not make it open source, on <a rel="noreferrer" target='_blank' href="https://github.com/" style={linkstyle}>Github</a>?</>)
     },
     {
         title: "Can I start work before the hackathon begins?",
