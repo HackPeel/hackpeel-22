@@ -19,8 +19,8 @@ export default function Home({ documentsRaw }) {
       <Hero />
       <AboutSection />
       <FAQ />
-      <TeamSection team={team} />
       <SponsorsSection />
+        <TeamSection team={team} />
     </Layout>
   )
 }
