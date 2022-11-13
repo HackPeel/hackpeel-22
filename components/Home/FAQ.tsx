@@ -29,7 +29,7 @@ const faq: FrequentlyAskedQuestion[] = [
     },
     {
         title: "Are there any prizes for winners?",
-        content: "With the help of our sponsors, we will be providing >$20,000 in prizes in cash,software and API prizes to the chosen winners. All attendees will also get swag bags and sponsor merch!"
+        content: "With the help of our sponsors, we will be providing >$20,000 in prizes in cash, software, and API prizes to the chosen winners. All attendees will also get swag bags and sponsor merch!"
     },
     {
         title: "Who owns my project?",

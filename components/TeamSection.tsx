@@ -157,7 +157,6 @@ export default function TeamSection({ team }) {
 				<br />
 				
 			</div>
-			<div className="w-1/2 p-2  text-xl font-bold m-auto" style={{backgroundColor: "#101E47", clipPath:"polygon(21% 0, 79% 0, 100% 100%, 0 100%)", marginBottom: '-1px'}}>‎</div>
 		</section>
 	</>)
 }

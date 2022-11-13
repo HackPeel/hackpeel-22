@@ -16,7 +16,7 @@ const contentVariants = {
 };
 
 export default function Layout({ name, children, noAnim }: { name: string, children: any, noAnim?: boolean }) {
-    const title = `Hackathon | hack::peel`;
+    const title = `${name} | hack::peel`;
     const description = "hack::peel is a hackathon curated specifically for students in the Peel Region, happening on December 16, 2022.";
     const imageSrc = "https://i.imgur.com/zOxeFaR.png";
 

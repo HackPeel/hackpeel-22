@@ -1,9 +1,7 @@
 import Layout from "../components/Layout"
-import Hero from "../components/Home/Hero"
+import AboutEvent from "../components/AboutSectionEvent"
+import TeamSection from "../components/TeamSection"
 import SponsorsSection from "../components/SponsorsSection"
-import AboutSection from "../components/AboutSection"
-import FAQ from "../components/Home/FAQ"
-import EventDetails from "../components/EventDetails"
 
 import { getDocumentsProps } from "../lib/sanity/util"
 
@@ -15,12 +13,10 @@ export default function Home({ documentsRaw }) {
   // TODO: Refactor this once we add sponsors to CMS
   const team = documentsRaw;
   return (
-    <Layout name="Home">
-      <Hero />
-      <AboutSection />
-      <EventDetails />
-      <FAQ />
+    <Layout name="About">
+      <AboutEvent />
+      <TeamSection team={team}/>
       <SponsorsSection />
     </Layout>
-  )
+  );
 }

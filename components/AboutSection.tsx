@@ -26,6 +26,7 @@ export default function About() {
                     <Image className="rounded-full" src={Logo} alt="Logo" objectFit="cover" objectPosition="center" width={540} height={540} quality={100} placeholder="blur" />
                 </div>
             </div>
+            
         </section>
     )
 }

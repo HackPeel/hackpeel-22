@@ -6,7 +6,6 @@ export interface socialsEntry {
 }
 
 const websiteLookup = {
-
 }
 
 function SocialObject({img, col, href, alt}: {img: string, col: string, href: string, alt: string}) {

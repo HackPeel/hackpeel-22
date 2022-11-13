@@ -96,7 +96,7 @@ export default function SponsorsSection() {
 			<a className="m-auto l-0 r-0" href="/hackpeel_sponsor_package.pdf" target="_blank">
 				<button className="transition-all p-4 rounded-xl bg-blue-700 text-white text-lg hover:text-blue-700 active:bg-blue-500 active:text-white hover:bg-white" style={{marginBottom: '80px'}}>Become a Sponsor</button>
 			</a>
-			<div className="w-1/2 p-2  text-xl font-bold m-auto" style={{backgroundColor: "#232f69", clipPath:"polygon(21% 0, 79% 0, 100% 100%, 0 100%)", marginBottom: '-1px'}}>‎</div>
+			<div className="w-1/2 p-2  text-xl font-bold m-auto" style={{backgroundColor: "#101E47", clipPath:"polygon(21% 0, 79% 0, 100% 100%, 0 100%)", marginBottom: '-1px'}}>‎</div>
 		</section>
 	</>)
 }
