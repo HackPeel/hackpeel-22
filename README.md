@@ -11,15 +11,11 @@ Website for hack::peel. For more information visit [hackpeel.ca](https://www.hac
 
 ## Built With
 
-Next.js
-
-Typescript
-
-Tailwind CSS
-
-Sanity CMS
-
-GitHub Pages
+- Next.js
+- Typescript
+- Tailwind CSS
+- Sanity CMS
+- GitHub Pages
 
 ## Copyright
 hack::peel, 2022
