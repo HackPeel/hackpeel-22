@@ -22,4 +22,4 @@ Sanity CMS
 GitHub Pages
 
 ## Copyright
-Made by Ike Yang and Aritro Saha, 2022.
+hack::peel, 2022
