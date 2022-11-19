@@ -25,7 +25,7 @@ const faq: FrequentlyAskedQuestion[] = [
     },
     {
         title: "Who can attend?",
-        content: "Any student enrolled in a Peel region high-school can attend this hackathon.",
+        content: "Any high school student can attend. Students not attending a Peel District School Board high school may need to complete additional steps, which will be dealt with after registration.",
     },
     {
         title: "Are there any prizes for winners?",
