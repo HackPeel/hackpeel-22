@@ -19,7 +19,7 @@ export default function Home({ documentsRaw }) {
     <Layout name="Home">
       <Hero />
       <AboutSection />
-      <EventDetails />]
+      <EventDetails />
       <Timetable />
       <FAQ />
       <SponsorsSection />
