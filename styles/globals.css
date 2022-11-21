@@ -19,3 +19,41 @@ html {
   margin-left: -1vw;
   margin-right: -1vw
 }
+
+.timetable-container {
+  display: inline-flex;
+  position: relative;
+  margin: 15px;
+}
+
+/*---------------------*/
+/*Timetable stuff below*/
+/*---------------------*/
+
+.timetable {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  border-collapse: collapse;
+  width: fit-content;
+  min-width: 30vw;
+}
+
+.timetable td, .timetable th {
+  border: 1px solid #ffffff;
+  padding: 8px;
+  text-align: center;
+
+}
+
+.timetable tr:nth-child(even){background-color: #1b1464;}
+
+.timetable tr:hover {background-color: #261797;}
+
+.timetable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #1b1464;
+  color: #ffffff;
+  font-family: Arial, bold;
+}

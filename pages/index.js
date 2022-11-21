@@ -3,6 +3,7 @@ import Hero from "../components/Home/Hero"
 import SponsorsSection from "../components/SponsorsSection"
 import AboutSection from "../components/AboutSection"
 import FAQ from "../components/Home/FAQ"
+import Timetable from "../components/Home/Timetable"
 import EventDetails from "../components/EventDetails"
 
 import { getDocumentsProps } from "../lib/sanity/util"
@@ -18,7 +19,8 @@ export default function Home({ documentsRaw }) {
     <Layout name="Home">
       <Hero />
       <AboutSection />
-      <EventDetails />
+      <EventDetails />]
+      <Timetable />
       <FAQ />
       <SponsorsSection />
     </Layout>
