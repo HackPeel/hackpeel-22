@@ -35,12 +35,12 @@ const links = [
         id: "faq",
         priority: false
     },
-    {
-        name: "Team",
-        link: "/about/#team",
-        id: "team",
-        priority: false
-    },
+    // {
+    //     name: "Team",
+    //     link: "/about/#team",
+    //     id: "team",
+    //     priority: false
+    // },
     {
         name: "Sponsors",
         link: "#sponsors",
@@ -63,8 +63,8 @@ export default function Header() {
             <div className="container px-4 mx-auto lg:flex lg:items-center">
                 <div className="flex justify-between items-center">
                     <Link href="/">
-                        <a className="font-bold text-xl text-teal">
-                            <Image src={Logo} alt="logo" width={200} height={50} />
+                        <a className="grow font-bold text-xl text-teal">
+                            <Image className="grow" src={Logo} alt="logo" width={200} height={50} />
                         </a>
                     </Link>
 
