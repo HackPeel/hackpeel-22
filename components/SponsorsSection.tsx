@@ -33,6 +33,12 @@ const sponsors: sponsorEntry[] = [
 		href: "https://www.desmos.com/"
 	},
 	{
+		name: "StickerGiant",
+		img: "/sponsor_logos/stickergiant.png",
+		col: "orange",
+		href: "https://www.stickergiant.com/"
+	},
+	{
 		name: "taskade",
 		img: "/sponsor_logos/taskade.png",
 		col: "white",
