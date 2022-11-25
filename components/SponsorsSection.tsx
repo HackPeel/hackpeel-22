@@ -39,6 +39,12 @@ const sponsors: sponsorEntry[] = [
 		href: "https://www.stickergiant.com/"
 	},
 	{
+		name: "Postman",
+		img: "/sponsor_logos/postman.png",
+		col: "orange",
+		href: "https://www.postman.com/"
+	},
+	{
 		name: "taskade",
 		img: "/sponsor_logos/taskade.png",
 		col: "white",
