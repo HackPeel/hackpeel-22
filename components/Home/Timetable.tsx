@@ -52,15 +52,15 @@ const timetable: Day[] = [
             },
             {
                 name: "Presentations start",
-                time: "5:45 PM"
+                time: "4:45 PM"
             },
             {
                 name: "Closing ceremony",
-                time: "7:00 PM"
+                time: "6:00 PM"
             },
             {
                 name: "End of Day 2",
-                time: "8:00 PM"
+                time: "7:00 PM"
             }
         ]
     },

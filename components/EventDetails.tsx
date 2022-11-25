@@ -11,7 +11,7 @@ const cardData: DetailCardData[] = [
     {
         title: "WHEN",
         subtitle: "it's happening",
-        content: "Friday December 16 6:00PM-10PM \n Saturday December 17 8:00AM-8:00PM"
+        content: "Friday December 16 6:00PM-10PM \n Saturday December 17 8:00AM-7:00PM"
     },
     {
         title: "WHERE",
