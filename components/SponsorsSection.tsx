@@ -29,7 +29,7 @@ const sponsors: sponsorEntry[] = [
 	{
 		name: "Desmos",
 		img: "/sponsor_logos/desmos.png",
-		col: "lime",
+		col: "cyan",
 		href: "https://www.desmos.com/"
 	},
 	{
