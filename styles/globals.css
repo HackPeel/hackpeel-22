@@ -62,15 +62,6 @@ html {
   color: #ffffff;
   font-family: Arial, bold;
 }
-
-.grow {
-  transition: 0.2s;
-}
-.grow:hover {
-  transition: .2s;
-  transform: scale(1.05);
-}
-
 /*---------------*/
 /*Venue map stuff*/
 /*---------------*/
