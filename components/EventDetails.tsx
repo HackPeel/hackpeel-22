@@ -76,6 +76,7 @@ export default function EventDetails() {
                 </div>
 
 
+
             </div>
         </section>
     </>)
