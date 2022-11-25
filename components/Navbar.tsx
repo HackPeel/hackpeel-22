@@ -16,23 +16,27 @@ const links = [
         priority: false
     },
     {
+        name: "Agenda",
+        link: "/#agenda",
+        id: "timetable",
+        priority: false
+    },
+    {
+        name: "FAQ",
+        link: "/#faq",
+        id: "faq",
+        priority: false
+    },
+    {
         name: "About Us",
         link: "/about",
         id: "about-us",
         priority: false
     },
-    /*
     {
-        name: "Timetable",
-        link: "/#timetable",
-        id: "timetable",
-        priority: false
-    },
-    */
-    {
-        name: "FAQ",
-        link: "/#faq",
-        id: "faq",
+        name: "Sponsors",
+        link: "/#sponsors",
+        id: "sponsors",
         priority: false
     },
     // {
@@ -41,12 +45,6 @@ const links = [
     //     id: "team",
     //     priority: false
     // },
-    {
-        name: "Sponsors",
-        link: "#sponsors",
-        id: "sponsors",
-        priority: false
-    },
     {
         name: "Sign Up",
         link: "https://forms.gle/mYpGJs3eAVCDkVrv8",
