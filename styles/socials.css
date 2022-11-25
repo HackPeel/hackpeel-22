@@ -11,3 +11,7 @@
 	box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.4);
 	filter: brightness(110%);
 }
+
+.social-link:hover {
+	filter: brightness(120%);
+}
