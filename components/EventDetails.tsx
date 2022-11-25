@@ -71,7 +71,7 @@ export default function EventDetails() {
 
                 <div className="column event-details-card-container" style={{alignSelf:"center", height: "100%", justifyContent: "center", display: "flex", flexWrap: "wrap"}}>
 
-                    {cardData.map(card_entry => (<DetailCard title={card_entry.title} subtitle={card_entry.subtitle} content={card_entry.content}/>))}
+                    {cardData.map(card_entry => (<DetailCard key={card_entry.title} title={card_entry.title} subtitle={card_entry.subtitle} content={card_entry.content}/>))}
 
                 </div>
 
