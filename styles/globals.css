@@ -65,3 +65,69 @@ html {
   transition: .2s;
   transform: scale(1.05);
 }
+
+/*---------------*/
+/*Venue map stuff*/
+/*---------------*/
+
+.black-frame {
+  overflow: hidden;
+  background: white;
+  box-sizing: border-box;
+  padding: 5%;
+  margin: 2em auto;
+  border: 1px solid #eee
+}
+
+.venue-top {
+  padding-top: 50px;
+}
+
+.venue-map iframe {
+  height: 30vw;
+  width: 30vw;
+  min-width: 400px;
+  min-height: 400px;
+}
+
+
+@media (max-width : 1280px){
+  .venue-map iframe {
+    width: 87vw;
+    height: 400px;
+    min-width: 0;
+    min-height: 400px;
+  }
+
+  .event-details-map-container {
+    width: fit-content;
+  }
+
+  .event-details-card-container {
+    width: 90vw !important;
+  }
+
+
+}
+
+
+
+.icon-about img {
+  display: block;
+  width: 70%;
+  margin: 15px auto 0;
+}
+
+
+
+.event-details-map-container {
+  display: inline-flex;
+  position: relative;
+  margin: 15px;
+}
+
+.event-details-card-container {
+  display: inline-flex;
+  position: relative;
+  width: 57%;
+}
