@@ -71,7 +71,7 @@ function DetailCard(data: DetailCardData) {
 
 export default function EventDetails() {
     return (<>
-        <section className="flex flex-col items-center p-10 lg:p-20 xl:px-40 z-[30] text-center" id="about" style={{ backgroundColor: "#1B1464", width: "100%", paddingLeft: "15px", paddingRight: "15px" }}>
+        <section className="flex flex-col items-center p-10 lg:p-20 xl:px-40 z-[30] text-center" id="about" style={{ backgroundColor: "#232f69", width: "100%", paddingLeft: "15px", paddingRight: "15px" }}>
             <div className="flex flex-col text-center mb-8">
                 <h1 className="text-4xl text-white font-bold">Event Overview</h1>
             </div>

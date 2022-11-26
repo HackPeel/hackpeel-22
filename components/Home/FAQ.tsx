@@ -58,12 +58,12 @@ export default function FAQ({ faq: faqRaw }) {
     // const faq: FrequentlyAskedQuestion[] = faqRaw.map(({ question, answer }) => ({ title: question, content: answer }))
 
     return (
-        <section className="flex flex-col p-10 items-center md:p-20 md:py-16 lg:px-32 items-left" id="faq" style={{backgroundColor: "#1B1464"}}>
+        <section className="flex flex-col p-10 items-center md:p-20 md:py-16 lg:px-32 items-left" id="faq" style={{backgroundColor: "#232f69"}}>
             <div className="flex flex-col text-center mb-8">
                 <h1 className="text-4xl text-white font-bold">Frequently Asked Questions</h1>
             </div>
 
-            <div className='flex flex-col lg:flex-row lg:gap-x-4 bg-black/20 p-6 lg:px-8' style={{backgroundColor: "#1B1464"}}>
+            <div className='flex flex-col lg:flex-row lg:gap-x-4 bg-black/20 p-6 lg:px-8'>
                 <div className='flex flex-col gap-x-4 rounded-xl lg:w-3/4'>
                     {faq.slice(0, faq.length / 2).map((data, idx) =>
                         <React.Fragment key={idx}>
@@ -72,7 +72,7 @@ export default function FAQ({ faq: faqRaw }) {
                     )}
                 </div>
 
-                <div className='flex flex-col gap-x-4 rounded-xl lg:w-3/4' style={{backgroundColor: "#1B1464"}}>
+                <div className='flex flex-col gap-x-4 rounded-xl lg:w-3/4'>
                     {faq.slice(faq.length / 2).map((data, idx) =>
                         <React.Fragment key={idx}>
                             <Accordion {...data} />

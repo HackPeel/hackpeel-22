@@ -103,7 +103,7 @@ export default function FAQ({ faq: faqRaw }) {
     // const faq: FrequentlyAskedQuestion[] = faqRaw.map(({ question, answer }) => ({ title: question, content: answer }))
 
     return (<>
-        <section id="agenda" className="flex flex-col p-10 items-center md:p-20 md:py-16 lg:px-32 items-left" style={{backgroundColor: "#232f69"}}>
+        <section id="agenda" className="flex flex-col p-10 items-center md:p-20 md:py-16 lg:px-32 items-left" style={{backgroundColor: "#1b1464"}}>
             <div className="flex flex-col text-center mb-8">
                 <h1 className="text-4xl text-white font-bold">Event Agenda</h1>
             </div>

@@ -100,7 +100,7 @@ function Sponsor({entry}: {entry: sponsorEntry}) {
 export default function SponsorsSection() {
 	const flexcls = "flex flex-wrap mx-16 pt-10 justify-around w-auto";
 	return (<>
-		<section id="sponsors" className="text-center w-auto p-10" style={{backgroundColor: "#232f69", paddingBottom: 0}}>
+		<section id="sponsors" className="text-center w-auto p-10" style={{backgroundColor: "#1b1464", paddingBottom: 0}}>
 			<h1 className="text-4xl text-white font-bold m-5 w-auto">Sponsors</h1>
 			<div className={flexcls}>
 				{sponsors.map(spnsr => (<Sponsor key={spnsr.name} entry={spnsr} />))}
