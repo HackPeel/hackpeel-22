@@ -127,3 +127,7 @@ html {
   position: relative;
   width: 57%;
 }
+
+.sponsor-image-container {
+  margin: 30px;
+}

@@ -1,4 +1,5 @@
 import Image from "next/future/image"
+import React from "react";
 
 
 
@@ -87,7 +88,7 @@ function Sponsor({entry}: {entry: sponsorEntry}) {
 		"--sponsor-col": col
 	} as React.CSSProperties;
 	return (<>
-		<a className="block w-72 h-36 m-5" href={href} rel="noreferrer" target="_blank">
+		<a className="sponsor-image-container block w-72 h-36 m-5" href={href} rel="noreferrer" target="_blank">
 			<div className="block w-full h-full m-auto p-4 l-0 r-0 object-contain relative" style={styling}>
 			{
 				img ? <Image src={img} fill={true} alt={name} className="sponsor transition-all" style={{overflowX: "visible", objectFit: "contain"}}/> : null
@@ -98,11 +99,11 @@ function Sponsor({entry}: {entry: sponsorEntry}) {
 }
 
 export default function SponsorsSection() {
-	const flexcls = "flex flex-wrap mx-16 pt-10 justify-around w-auto";
+	const flexcls = "flex flex-wrap mx-16 pt-10 justify-around w-auto sponsor-container";
 	return (<>
 		<section id="sponsors" className="text-center w-auto p-10" style={{backgroundColor: "#1b1464", paddingBottom: 0}}>
 			<h1 className="text-4xl text-white font-bold m-5 w-auto">Sponsors</h1>
-			<div className={flexcls}>
+			<div className="row centered" style={{justifyContent: "center", display: "flex", width: "100%", marginRight: "auto", flexWrap: "wrap", marginLeft: "auto"}}>
 				{sponsors.map(spnsr => (<Sponsor key={spnsr.name} entry={spnsr} />))}
 			</div>
 			<a className="m-auto l-0 r-0" href="/hackpeel_sponsor_package.pdf" target="_blank">
