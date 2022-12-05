@@ -22,19 +22,23 @@ const timetable: Day[] = [
         events: [
             {
                 name: "Opening ceremony",
-                time: "6:00 PM"
+                time: "5:00 PM"
             },
             {
                 name: "Hacking begins",
-                time: "7:30 PM"
+                time: "5:45 PM"
+            },
+            {
+                name: "Dinner served",
+                time: "6:00 PM"
             },
             {
                 name: "Programming Contest",
-                time: "8:30 PM"
+                time: "6:15 PM"
             },
             {
                 name: "End of day 1 (participants go home)",
-                time: "10:00 PM"
+                time: "8:00 PM"
             },
 
         ]
@@ -47,20 +51,32 @@ const timetable: Day[] = [
                 time: "8:00 AM"
             },
             {
+                name: "Breakfast served",
+                time: "9:00 AM"
+            },
+            {
                 name: "Among Us IRL activity",
                 time: "10:00 AM"
             },
             {
+                name: "Line tracing robot competition",
+                time: "11:00 AM"
+            },
+            {
+                name: "Lunch served",
+                time: "12:00 PM"
+            },
+            {
                 name: "Presentations start",
-                time: "4:45 PM"
+                time: "3:45 PM"
             },
             {
                 name: "Closing ceremony",
-                time: "6:00 PM"
+                time: "5:00 PM"
             },
             {
                 name: "End of Day 2",
-                time: "7:00 PM"
+                time: "6:00 PM"
             }
         ]
     },
