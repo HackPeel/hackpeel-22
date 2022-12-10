@@ -13,7 +13,7 @@ const cardData: DetailCardData[] = [
     {
         title: "When",
         icon: <HiCalendar className='text-blue-500' />,
-        content: "Friday December 16 5:00PM-8:00PM\nSaturday December 17 8:00AM-6:00PM"
+        content: "Friday December 16 5:00PM-8:00PM\nSaturday December 17 9:00AM-6:00PM"
     },
     {
         title: "Where",

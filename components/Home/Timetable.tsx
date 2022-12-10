@@ -48,11 +48,11 @@ const timetable: Day[] = [
         events: [
             {
                 name: "Start of Day 2",
-                time: "8:00 AM"
+                time: "9:00 AM"
             },
             {
                 name: "Breakfast served",
-                time: "9:00 AM"
+                time: "9:30 AM"
             },
             {
                 name: "Among Us IRL activity",
