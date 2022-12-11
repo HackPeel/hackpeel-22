@@ -46,6 +46,12 @@ const sponsors: sponsorEntry[] = [
 		href: "https://www.postman.com/"
 	},
 	{
+		name: "Hippocampus",
+		img: "/sponsor_logos/hippocampus.png",
+		col: "yellow",
+		href: "https://www.hippocampus.ca/"
+	},
+	{
 		name: "taskade",
 		img: "/sponsor_logos/taskade.png",
 		col: "white",
