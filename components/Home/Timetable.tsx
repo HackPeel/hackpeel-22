@@ -21,24 +21,24 @@ const timetable: Day[] = [
         day_text: "Friday — Dec. 16",
         events: [
             {
+                name: "Check-in starts",
+                time: "4:30 PM"
+            },
+            {
                 name: "Opening ceremony",
-                time: "5:00 PM"
+                time: "5:00 PM - 5:45PM"
             },
             {
                 name: "Hacking begins",
-                time: "5:45 PM"
+                time: "5:45PM"
             },
             {
                 name: "Dinner served",
-                time: "6:00 PM"
-            },
-            {
-                name: "Programming Contest",
-                time: "6:15 PM"
+                time: "6:00 PM - 6:30 PM"
             },
             {
                 name: "End of day 1 (participants go home)",
-                time: "8:00 PM"
+                time: "7:30 PM"
             },
 
         ]
@@ -47,36 +47,40 @@ const timetable: Day[] = [
         day_text: "Saturday — Dec. 17",
         events: [
             {
-                name: "Start of Day 2",
-                time: "9:00 AM"
-            },
-            {
-                name: "Breakfast served",
+                name: "Check-in starts",
                 time: "9:30 AM"
             },
             {
+                name: "Breakfast served",
+                time: "10:00 AM - 10:30 AM"
+            },
+            {
                 name: "Among Us IRL activity",
-                time: "10:00 AM"
+                time: "10:30 AM"
+            },
+            {
+                name: "Programming Contest",
+                time: "11:30 AM - 12:45 PM"
             },
             {
                 name: "Line tracing robot competition",
-                time: "11:00 AM"
+                time: "12:00 PM - 12:45 PM"
             },
             {
                 name: "Lunch served",
-                time: "12:00 PM"
+                time: "1:00 PM - 1:30PM"
             },
             {
-                name: "Presentations start",
-                time: "3:45 PM"
+                name: "Judging",
+                time: "3:15 PM - 4:00 PM"
             },
             {
                 name: "Closing ceremony",
-                time: "5:00 PM"
+                time: "4:15 PM - 5:00 PM"
             },
             {
-                name: "End of Day 2",
-                time: "6:00 PM"
+                name: "End of Event",
+                time: "5:20 PM"
             }
         ]
     },

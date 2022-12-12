@@ -24,6 +24,10 @@ const faq: FrequentlyAskedQuestion[] = [
         content: (<>No, participants will go home after Day 1 and come back to the venue on Day 2. Check the <a href="#timetable" style={linkstyle}>timetable</a> for more information.</>)
     },
     {
+        title: "Can I work on my project at home?",
+        content: ("Yes, but only after hacking begins. You can continue working on your project after you go home at the end of each day.")
+    },
+    {
         title: "Who can attend?",
         content: "Any high school student can attend. Students not attending a Peel District School Board high school may need to complete additional steps, which will be dealt with after registration.",
     },
