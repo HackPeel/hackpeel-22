@@ -49,7 +49,7 @@ const faq: FrequentlyAskedQuestion[] = [
     },
     {
         title: "Is there a theme for the hackathon?",
-        content: (<>To allow for as much creative liberty, there is no required project theme. However, specific theme restrictions apply for sponsor prize eligibility. Check the <a href="" style={linkstyle}>Devpost</a> for more info.</>)
+        content: (<>To allow for as much creative liberty, there is no required project theme. However, specific theme restrictions apply for sponsor prize eligibility. Check the <a href="https://hackpeel22.devpost.com/" style={linkstyle}>Devpost</a> for more info.</>)
     },
     {
         title: "How large can my team be?",
