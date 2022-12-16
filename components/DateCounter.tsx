@@ -6,7 +6,7 @@ import SpinDial from "./SpinDial"
 
 
 const evtStart: number = Date.parse("2022-12-16T16:30:00.0000");
-const evtEnd: number = Date.parse("2022-12-17T17:20:00.0000");
+const evtEnd: number = Date.parse("2022-12-17T15:00:00.0000");
 export default function DateCounter() {
     const [remaining, setRemaining] = useState(0);
     useInterval(() => setRemaining(Math.max(evtEnd - Date.now(), 0)), 100);
@@ -17,7 +17,7 @@ export default function DateCounter() {
 
     return (
         <div className="p-4 text-center">
-            <span className="text-xl text-white font-bold">The hackathon ends in...</span>
+            <span className="text-xl text-white font-bold">Submissions close in...</span>
             <div className="flex justify-center p-2 mx-10" style={{display:'flex', flexWrap:'wrap'}}>
                 <SpinDial num={days} digits={2} descriptor="Days" />
                 <SpinDial num={hours} digits={2} descriptor="Hours" />

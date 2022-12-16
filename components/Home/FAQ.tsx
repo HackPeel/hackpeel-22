@@ -21,7 +21,7 @@ const faq: FrequentlyAskedQuestion[] = [
     },
     {
         title: "Is the hackathon running overnight?",
-        content: (<>No, participants will go home after Day 1 and come back to the venue on Day 2. Check the <a href="#timetable" style={linkstyle}>timetable</a> for more information.</>)
+        content: (<>No, participants will go home after Day 1 and come back to the venue on Day 2. Check the <a href="#agenda" style={linkstyle}>timetable</a> for more information.</>)
     },
     {
         title: "Can I work on my project at home?",
@@ -45,11 +45,11 @@ const faq: FrequentlyAskedQuestion[] = [
     },
     {
         title: "Are there any required submission formats?",
-        content: (<>All projects will need to be submitted via the <a href="https://hackpeel22.devpost.com/" style={linkstyle}>Devpost</a>. Project source code must be present on a shareable VCS such as GitHub.</>)
+        content: (<>All projects will need to be submitted via the <a href="https://hackpeel22.devpost.com/" rel="noreferrer" target='_blank' style={linkstyle}>Devpost</a>. Project source code must be present on a shareable VCS such as GitHub.</>)
     },
     {
         title: "Is there a theme for the hackathon?",
-        content: (<>To allow for as much creative liberty, there is no required project theme. However, specific theme restrictions apply for sponsor prize eligibility. Check the <a href="https://hackpeel22.devpost.com/" style={linkstyle}>Devpost</a> for more info.</>)
+        content: (<>To allow for as much creative liberty, there is no required project theme. However, specific theme restrictions apply for sponsor prize eligibility. Check the <a rel="noreferrer" target='_blank' href="https://hackpeel22.devpost.com/" style={linkstyle}>Devpost</a> for more info.</>)
     },
     {
         title: "How large can my team be?",
