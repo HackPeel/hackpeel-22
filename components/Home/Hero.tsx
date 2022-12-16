@@ -86,8 +86,8 @@ export default function Hero() {
                 </div>
                 
                 <DateCounter />
-                <a className="py-4 px-6 bg-blue-500 rounded-lg font-semibold text-white hover:bg-blue-700 duration-150 text-lg lg:text-2xl mt-4" href="https://forms.gle/mYpGJs3eAVCDkVrv8" rel="noreferrer" target="_blank">
-                    Sign Up Today!
+                <a className="py-4 px-6 bg-blue-500 rounded-lg font-semibold text-white hover:bg-blue-700 duration-150 text-lg lg:text-2xl mt-4" href="https://hackpeel22.devpost.com/" rel="noreferrer" target="_blank">
+                    Submit your project here!
                 </a>
             </div>
         </div>

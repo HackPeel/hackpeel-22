@@ -46,8 +46,8 @@ const links = [
     //     priority: false
     // },
     {
-        name: "Sign Up",
-        link: "https://forms.gle/mYpGJs3eAVCDkVrv8",
+        name: "Devpost",
+        link: "https://hackpeel22.devpost.com/",
         id: "call-to-action",
         priority: true
     },

@@ -45,7 +45,7 @@ const faq: FrequentlyAskedQuestion[] = [
     },
     {
         title: "Are there any required submission formats?",
-        content: (<>All projects will need to be submitted via the <a href="\" style={linkstyle}>Devpost</a>. Project source code must be present on a shareable VCS such as GitHub.</>)
+        content: (<>All projects will need to be submitted via the <a href="https://hackpeel22.devpost.com/" style={linkstyle}>Devpost</a>. Project source code must be present on a shareable VCS such as GitHub.</>)
     },
     {
         title: "Is there a theme for the hackathon?",

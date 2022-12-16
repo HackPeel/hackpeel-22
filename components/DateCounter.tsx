@@ -9,7 +9,7 @@ const evtStart: number = Date.parse("2022-12-16T16:30:00.0000");
 const evtEnd: number = Date.parse("2022-12-17T17:20:00.0000");
 export default function DateCounter() {
     const [remaining, setRemaining] = useState(0);
-    useInterval(() => setRemaining(Math.max(evtStart - Date.now(), 0)), 100);
+    useInterval(() => setRemaining(Math.max(evtEnd - Date.now(), 0)), 100);
     const days = Math.floor(remaining / 86400000)
     const hours = Math.floor(remaining / 3600000) % 24
     const minutes = Math.floor(remaining / 60000) % 60
@@ -17,7 +17,7 @@ export default function DateCounter() {
 
     return (
         <div className="p-4 text-center">
-            <span className="text-xl text-white font-bold">Starting in...</span>
+            <span className="text-xl text-white font-bold">The hackathon ends in...</span>
             <div className="flex justify-center p-2 mx-10" style={{display:'flex', flexWrap:'wrap'}}>
                 <SpinDial num={days} digits={2} descriptor="Days" />
                 <SpinDial num={hours} digits={2} descriptor="Hours" />
