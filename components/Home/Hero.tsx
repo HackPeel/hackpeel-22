@@ -33,7 +33,7 @@ const characterVariants = {
     animate: { opacity: 1, y: 0, transition: { duration: 0.15, ...transition }, }
 };
 
-const topLine = "Get ready for...".split(' ');
+const topLine = "It's a wrap for 2022!".split(' ');
 const bottomLine = "hack::peel".split('');
 
 export default function Hero() {
@@ -79,15 +79,16 @@ export default function Hero() {
                     </div>
                 </div>
 
-                <div className="flex flex-col gap-2 text-white mb- md:w-3/4 lg:w-1/2">
-                    <p className="text-2xl font-light text-center">
-                        Join us at The Woodlands Secondary School from <b>December 16 to 17, 2022</b>!
-                    </p>
-                </div>
+                {/*<div className="flex flex-col gap-2 text-white mb- md:w-3/4 lg:w-1/2">*/}
+                {/*    <p className="text-2xl font-light text-center">*/}
+                {/*        Join us at The Woodlands Secondary School from <b>December 16 to 17, 2022</b>!*/}
+                {/*    </p>*/}
+                {/*</div>*/}
                 
-                <DateCounter />
+                {/*<DateCounter />*/}
+
                 <a className="py-4 px-6 bg-blue-500 rounded-lg font-semibold text-white hover:bg-blue-700 duration-150 text-lg lg:text-2xl mt-4" href="https://hackpeel22.devpost.com/" rel="noreferrer" target="_blank">
-                    Submit your project here!
+                    View project gallery
                 </a>
             </div>
         </div>
