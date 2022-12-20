@@ -52,6 +52,12 @@ const sponsors: sponsorEntry[] = [
 		href: "https://www.hippocampus.ca/"
 	},
 	{
+		name: "DigitalOcean",
+		img: "/sponsor_logos/DigitalOcean.png",
+		col: "blue",
+		href: "https://www.digitalocean.com/"
+	},
+	{
 		name: "taskade",
 		img: "/sponsor_logos/taskade.png",
 		col: "white",
