@@ -1,6 +1,8 @@
 import Image from "next/image";
 
 export interface socialsEntry {
+	_key: string,
+	_type: string,
 	url: string,
 	website: string
 }
@@ -44,13 +46,11 @@ function SocialObject({img, col, href, alt}: {img: string, col: string, href: st
 		</a>
 	)
 }
-export default function SocialsDisplay({socials, parentID}: {socials: socialsEntry[], parentID: string}) {
+export default function SocialsDisplay({socials}: {socials: socialsEntry[]}) {
 	return (<>
 		<div className="flex h-0 mx-2 my-0 social transition-all overflow-hidden">
 			{
-				socials.map(obj => (<>
-					<SocialObject img={websiteLookup[obj.website] ? websiteLookup[obj.website].img: null} col={websiteLookup[obj.website] ? websiteLookup[obj.website].col : "gray"} href={obj.url} alt={obj.website} key={parentID+websiteLookup[obj.website]} />
-				</>))
+				socials.map(obj => <SocialObject img={websiteLookup[obj.website] ? websiteLookup[obj.website].img: null} col={websiteLookup[obj.website] ? websiteLookup[obj.website].col : "gray"} href={obj.url} alt={obj.website} key={obj._key}/>)
 			}
 		</div>
 	</>)
