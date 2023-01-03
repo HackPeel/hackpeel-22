@@ -48,7 +48,7 @@ export default function TeamDisplay({ fn, ln, title, img, hl, scls }: { fn: stri
 			<div className={lns}>{lastn}</div>
 			<div className={ts} >{title}</div>
 			{
-				scls ? <SocialObject socials={scls} /> : (<></>)
+				scls ? <SocialObject socials={scls} parentID={firstn+lastn} /> : (<></>)
 			}
 		</div>
 	</>)

@@ -33,106 +33,6 @@ interface staffEntry {
 	socials?: socialsEntry[]
 }
 
-const staff: staffEntry[] = [
-	{
-		first: "Pranav",
-		last: "Tripathi",
-		title: "Co-president and Head of Finance",
-		highlight: true
-	},
-	{
-		first: "Aayush",
-		last: "Panda",
-		title: "Co-president and Head of Technology",
-		highlight: true
-	},
-	{
-		first: "Vishnu",
-		last: "Satish",
-		title: "Co-president and Head of Sponsorships and Outreach",
-		highlight: true
-	},
-
-	{
-		first: "Catherine",
-		last: "Zhang",
-		title: "Head of Marketing and Design",
-		highlight: true
-	},
-	{
-		first: "Marcus",
-		last: "Chong",
-		title: "Head of Logistics",
-		highlight: true
-	},
-	{
-		first: "Nathan",
-		last: "Chung",
-		title: "Tech Lead",
-		highlight: true
-	},
-	{
-		first: "Ike",
-		last: "Yang",
-		title: "Frontend Developer and Designer",
-	},
-	{
-		first: "Aritro",
-		last: "Saha",
-		title: "Backend/Frontend Developer"
-	},
-	{
-		first: "Yibo",
-		last: "Sun",
-		title: "Marketing Designer"
-	}
-	,
-	{
-		first: "E.J.",
-		last: "Ramas",
-		title: "Logistics Staff"
-	},
-	{
-		first: "Grant",
-		last: "Ren",
-		title: "Logistics Staff"
-	},
-	{
-		first: "Khalil",
-		last: "Ramzi",
-		title: "Logistics Staff"
-	},
-	{
-		first: "Ashley",
-		last: "",
-		title: "Logistics Staff"
-	},
-	{
-		first: "Aarav",
-		last: "Modi",
-		title: "Sponsorships and Outreach Staff"
-	},
-	{
-		first: "Chinmayi",
-		last: "Gannamaraju",
-		title: "Sponsorships and Outreach Staff"
-	},
-	{
-		first: "Jacob",
-		last: "Park",
-		title: "Sponsorships and Outreach Staff"
-	},
-	{
-		first: "Rohith",
-		last: "Rajmohan",
-		title: "Marketing and Design Staff"
-	}
-]
-
-function SectionDisp({ arr }: { arr: staffEntry[] }) {
-	return <></>;
-}
-
 export default function TeamSection({ team }) {
 	const flexcls: string = "flex flex-wrap gap-8 justify-around w-full";
 	return (<>
@@ -149,7 +49,7 @@ export default function TeamSection({ team }) {
 								title={member.position}
 								hl={member.highlighted}
 								scls={member.links}
-								key={member.firstName}
+								key={member.firstName + member.lastName}
 							/>
 						)
 					)}
