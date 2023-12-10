@@ -19,4 +19,4 @@ Website for hack::peel. For more information visit [hackpeel.ca](https://www.hac
 - GitHub Pages
 
 ## Copyright
-hack::peel, 2022
+hack::peel 2023
